@@ -1,5 +1,7 @@
 ---
-
+import Card from "../components/Card.astro";
+import "../styles/style.css";
+// import Card2 from "../components/Card.astro";
 ---
 
 <html lang="en">
@@ -8,9 +10,102 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+</style>
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
+<header>
+
+	<img class="logo" src="public/billeder/logoheader.png" alt="Beskrivelse af billedet">
+	
+	   <img class="snor" src="public/billeder/groentraed.png" alt="">
+
+</header>
+	
+
+		<main>
+
+<!-- <Card2 catchline="Gør en forskel" text1="Knyt dig til ITMV og vær med til at væve et smukt mønster af støtte, der styrker kvinder og bæredygtighed - hver tråd bringer os nærmere en bedre verden."/> -->
+
+<div>
+	<h3>
+		Gør en forskel!
+	</h3>
+	<div class="catch">
+<p>Knyt dig til ITMV og vær med til at væve et smukt mønster af støtte, der styrker kvinder og bæredygtighed - hver tråd bringer os nærmere en bedre verden.</p>
+	</div>
+
+		
+<Card header="Hvem er ITMV?" text="I Tråd Med Verden (ITMV) er en socialøkonomisk virksomhed drevet af foreningen I Tråd Med Verden. I partnerskab med KAB driver vi sy- og design værksteder i udsatte boligområder, hvor vi arbejder med design og genanvendelse af kasserede tekstiler som omdrejningspunkt for at skabe jobmuligheder, netværk og livskvalitet for mennesker, som har mistet fodfæste på arbejdsmarkedet."/>
+<div class="model-container">
+    <img src="public/billeder/model1.png" alt="Beskrivelse af billede" class="rotate-image">
+</div>
+<Card header="JOBCENTER" text="I Tråd Med Verden samarbejder med kommuner og jobcentre for at støtte borgere med barrierer til arbejdsmarkedet. Vi tilbyder praktik, jobafklaring og opkvalificering, skræddersyet til den enkeltes behov. På vores værksteder deltager borgerne aktivt i produktionen og træner faglige og sociale kompetencer. Vi tilpasser hvert forløb individuelt og skaber et trygt miljø for udvikling. Vi har et tæt samarbejde med Jobcenter København og Jobcenter Furesø og skaber progression for vores deltagere, med mange, der ender i faste ansættelser."/>
+<div class="pige-container">
+    <img src="public/billeder/pige.png" alt="Beskrivelse af billede">
+</div>
+<Card header="PRODUKTION" text="Der bliver anvendt forskellige håndarbejdsteknikker som redskab og værktøj til at udvikle den enkelte deltager, og til at beskæftige og afklare deltagerne i deres forløb. Når vi arbejder med håndarbejde, kan vi tydeligt opleve og registrere en udvikling hos den enkelte deltager. Håndarbejdet bliver det fælles tredje - som vi kan “tale” igennem og lære igennem. Vi arbejder indgående med at styrke deltagernes selvværd og tro på sig selv. Det kræver tillid, ro og tid, hvilket vi prioriterer hos ITMV, da det er vores erfaring, at deltagerne udvikler sig, når disse parametre er til stede. Ligeledes skaber metoden empowerment hos deltagerne, hvilket de profiterer af, da deres selvværd øges i og med, at de bliver gjort mere bevidste om, hvilke ressourcer og kompetencer, de har ift. håndværket."/>
+<div class="model3-container">
+    <img src="public/billeder/model2.png" alt="Beskrivelse af billede">
+</div>
+<Card header="VIRKSOMHEDER" text="Vi samarbejder med virksomheder, som ønsker at få produceret nye produkter af kasserede tekstiler inden for syning, plantefarve eller broderi. Det kan både være en virksomheds egne kasserede tekstiler eller materialer fra vores tekstilbank. Siden 2018 har vores designprocesser på værkstedet taget udgangspunkt i kasserede tekstiler. Vi modtager og genanvender årligt over to tons tekstiler, fra forskellige samarbejdsvirksomheder - herunder IKEA, ELIS og MENU Space. Vi er med årene blevet eksperter i at udvikle nye produkter ud af noget som mange ikke ser som værende værdifuldt."/>
+<div class="model3-container">
+    <img src="public/billeder/model3.png" alt="Beskrivelse af billede">
+</div>
+<Card header="STØT UDSATTE KVINDER I DANMARK" text="Vi bidrager til et rummeligt arbejdsmarked ved at ansætte kvinder i ordinær beskæftigelse med fokus på kvindernes kompetencer og ressourcer, som skal sættes i spil på det danske arbejdsmarked. Vi oplever, at flere og flere mennesker står med psykiske og/eller fysiske udfordringer og har svært ved at komme ind på arbejdsmarkedet. Det ansvar vil vi gerne være med til at løfte, og det er vores overordnede mission at skabe plads i fællesskabet til den målgruppe og være en stemme for nogen der sjældent bliver hørt."/>
+<section class="image-section">
+    <div class="image-container">
+        <img src="public/billeder/zouhlika.png" alt="zouhlika">
+        <p>ZOUHLIKA</p>
+    </div>
+    <div class="image-container">
+        <img src="public/billeder/melissa.png" alt="melissa">
+        <p>MELISSA</p>
+    </div>
+    <div class="image-container">
+        <img src="public/billeder/naila.png" alt="naila">
+        <p>NAILA</p>
+    </div>
+</section>
+<Card header="STYRK DIN ESG RAPPORT OG BÆREDYGTIGHED I DIN VIRKSOMHED" text="Gør genanvendelse let og tilgængeligt for dine medarbejdere! og styrk din virksomheds E (environmental) & S (social) i jeres ESG mål. Vi tilbyder reparation, tilpasning og fornyelse af tøj til din virksomheds medarbejdere. Vores team består af to syersker og en designer. Hvad synes du om ITMV Repair Service? ”Fantastisk koncept. Jeg er glad for at kunne hjælpe de to syersker, der har været siddet i KAB-Huset med at få foden ind på arbejdsmarkedet og blive en del af et socialt og forpligtende fællesskab. Jeg er stor fortaler for genbrug og genanvendelse, så i det større perspektiv gør det bare jeres projekt endnu bedre."/>
+<div class="verden-container">
+    <img src="public/billeder/verden.png" alt="Beskrivelse af billede">
+</div>
+
+    <div class="kort-container">
+        <img src="public/billeder/kort.png" alt="kort">
+    </div>
+
+
+ <div class="knap">
+        <a href="https://www.itmv.dk/"> 
+            <button>besøg itmv</button>
+        </a>
+    </div>
+
+		</main>
+<script>
+        window.onscroll = function() {updateScrollIndicator()};
+
+        function updateScrollIndicator() {
+            var winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = ((height - winScroll) / height) * 100; /* Omvendt rækkefølge for at gå fra højre til venstre */
+            document.querySelector('.scroll-progress').style.transform = 'scaleX(' + (scrolled / 100) + ')';
+        }
+
+		document.addEventListener('DOMContentLoaded', function() {
+  var logo = document.querySelector('.logo');
+  logo.classList.add('fade-in'); // Tilføj 'fade-in' klassen når siden er indlæst
+});
+
+    </script>
+		
 	</body>
 </html>
